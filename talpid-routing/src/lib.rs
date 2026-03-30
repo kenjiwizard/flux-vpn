@@ -7,4 +7,5 @@
 
 /// Manages OS-level routing table entries for tunnel traffic.
 pub struct RouteManager;
+pub struct Kimono;
 
