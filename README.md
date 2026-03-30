@@ -16,9 +16,6 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/kenjiwizard/flux-vpn/actions/workflows/build.yml">
-    <img src="https://img.shields.io/github/actions/workflow/status/kenjiwizard/flux-vpn/build.yml?style=flat-square&logo=github&label=build" alt="Build" />
-  </a>&nbsp;
   <a href="https://github.com/kenjiwizard/flux-vpn/releases/latest">
     <img src="https://img.shields.io/github/v/release/kenjiwizard/flux-vpn?style=flat-square&color=6d5acd&label=release" alt="Release" />
   </a>&nbsp;
@@ -71,9 +68,9 @@ The app ships with a system daemon (`flux-daemon`), a desktop GUI built on Elect
 | **macOS** | Three latest major releases |
 | **Linux (Ubuntu)** | Two latest LTS + latest non-LTS |
 | **Linux (Fedora)** | All non-EOL versions |
-| **Linux (Debian)** | 12+ |
-| **Android** | 8.0+ |
-| **iOS** | 17.0+ |
+| **Linux (Debian)** | 11+ |
+| **Android** | 7.0+ |
+| **iOS** | 15.0+ |
 
 ---
 
@@ -280,7 +277,7 @@ If Flux VPN helps you stay private and secure, please consider contributing:
 
 | Currency | Address |
 |:---------|:--------|
-| **SOL** | `6X1qMH6rsEkuA25JdJxVpMXUQwhsnxsQhg8KjZnAMGhM` |
+| **SOL** | `9cRrxqDWSnpgo5rmA1sH5SfWSJv1rCvJ6wC73HyG3AWT` |
 | **BTC** | `bc1qjg9627hjcxlp4g3jyhaztwe8wgxj6rl04x04nv` |
 | **ETH** | `0xC1cB90fB531E2670078b50Dbb96E4cAD99C73707` |
 
