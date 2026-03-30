@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Flux VPN
+Comment=Privacy-first VPN client
+Exec=flux-vpn
+Icon=flux-vpn
+Terminal=false
+Type=Application
+Categories=Network;Security;
+Keywords=vpn;privacy;wireguard;

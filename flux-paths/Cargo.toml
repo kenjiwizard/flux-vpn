@@ -1,0 +1,13 @@
+[package]
+name = "flux-paths"
+version = "0.1.0"
+description = "Platform-specific file paths for Flux VPN"
+authors.workspace = true
+repository.workspace = true
+license.workspace = true
+edition.workspace = true
+
+[dependencies]
+serde = { workspace = true }
+log = { workspace = true }
+thiserror = { workspace = true }

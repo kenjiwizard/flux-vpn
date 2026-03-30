@@ -1,0 +1,42 @@
+[workspace]
+resolver = "2"
+members = [
+    "flux-daemon",
+    "flux-cli",
+    "flux-api",
+    "flux-types",
+    "flux-dns",
+    "flux-logging",
+    "flux-paths",
+    "flux-relay-selector",
+    "flux-tunnel",
+    "flux-wireguard",
+    "talpid-core",
+    "talpid-routing",
+    "talpid-dns",
+    "talpid-net",
+    "talpid-tunnel",
+    "talpid-types",
+    "talpid-firewall",
+    "tunnel-obfuscation",
+]
+
+[workspace.package]
+authors = ["Flux VPN <hello@fluxvpn.org>"]
+repository = "https://github.com/kenjiwizard/flux-vpn"
+license = "GPL-3.0-or-later"
+edition = "2021"
+rust-version = "1.80"
+
+[workspace.dependencies]
+tokio = { version = "1", features = ["full"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+log = "0.4"
+env_logger = "0.11"
+thiserror = "2"
+anyhow = "1"
+clap = { version = "4", features = ["derive"] }
+tonic = "0.12"
+prost = "0.13"
+futures = "0.3"

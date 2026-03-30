@@ -1,0 +1,20 @@
+[package]
+name = "flux-daemon"
+version = "0.1.0"
+description = "Flux VPN system daemon"
+authors.workspace = true
+repository.workspace = true
+license.workspace = true
+edition.workspace = true
+
+[[bin]]
+name = "flux-daemon"
+path = "src/main.rs"
+
+[dependencies]
+tokio = { workspace = true }
+log = { workspace = true }
+env_logger = { workspace = true }
+anyhow = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }

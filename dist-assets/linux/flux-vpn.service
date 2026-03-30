@@ -1,0 +1,14 @@
+[Unit]
+Description=Flux VPN Daemon
+Wants=network.target
+After=network-online.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/flux-daemon
+Restart=always
+RestartSec=5
+StartLimitIntervalSec=0
+
+[Install]
+WantedBy=multi-user.target

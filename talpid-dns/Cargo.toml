@@ -1,0 +1,12 @@
+[package]
+name = "talpid-dns"
+version = "0.1.0"
+description = "DNS resolver management"
+authors.workspace = true
+repository.workspace = true
+license.workspace = true
+edition.workspace = true
+
+[dependencies]
+log = { workspace = true }
+thiserror = { workspace = true }

@@ -1,0 +1,12 @@
+[package]
+name = "talpid-core"
+version = "0.1.0"
+description = "Core VPN client library — generic and privacy-preserving"
+authors.workspace = true
+repository.workspace = true
+license.workspace = true
+edition.workspace = true
+
+[dependencies]
+log = { workspace = true }
+thiserror = { workspace = true }
